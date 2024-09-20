@@ -94,6 +94,8 @@ Normalization is the process of organizing data in a database to minimize redund
 
 **PlantUML Diagram for 1NF:**
 
+<img src='https://www.plantuml.com/plantuml/png/SoWkIImgAStDuKhDAyaigLHGyYzAIIqgLbAevb9Gq5O0ypnT5AmKClDA56ni0hpjxC0IpgN59VcvgKL-YRcfGDdYagBCl7ImJ41HVaffSWb2i9RB8JKl1MW70000'>
+
 ```plantuml
 @startuml
 entity "Orders" {
@@ -130,6 +132,8 @@ entity "Orders" {
 |3|Headphones|
 
 **PlantUML Diagram for 2NF:**
+
+<img src='https://www.plantuml.com/plantuml/png/ut8eBaaiAYdDpU5ApIl9BAbKKF8lIaajAbPIgEPIKD1M0FCyNHIi53BpIXHiR0AyxUp04iwbnINvkQb5VecvgK3PufAYpBnqhbekL7C2Yl9JIfDBS1hd1ZCEgX3P98X356fgT7NpgnLGZ0CgIyxFAqdCp2lcSaZDIm6w7m00' >
 
 ```plantuml
 
@@ -183,6 +187,8 @@ Orders ||--o{ OrderProducts : contains
 |3|Headphones|
 
 **PlantUML Diagram for 3NF:**
+
+<img src='https://www.plantuml.com/plantuml/png/VP112i8m44NtESNGhVG2Kaf1AOYWlK9eWmJQYMGc2sczkp4wWInqERp_NpxfYBNdiCpA85j-G7Nra_5KmQe0Tf2kqn7sO96XQOPpsoPm2CHkALZ_Pa-LJH8HcNJ--YvwCP4IUuitiULTWtTJ6Fddl5vqts1XodjWs-hQhPysnSnzrgCXbUwIoeCnD3faRP5KPt2AF_O2'>
 
 ```planuml
 @startuml
@@ -278,6 +284,8 @@ To optimize for read performance, you might create a denormalized table that com
 |3|Alice|Mouse|
 
 **PlantUML Diagram for Denormalization:**
+
+<img src='https://www.plantuml.com/plantuml/png/SoWkIImgAStDuKhDAyaigLHGSadDoo_AJSp9h4fDyIzAIIqgLbAevb9Gq5O0ypnT5AmKClDA56ni0hpjxC0IpgN59VcvgKL-YRcfGDdYagBCl7ImJ41HVaffSWb2i9RB8JKl1MWV0000'>
 
 ```plantuml
 @startuml
